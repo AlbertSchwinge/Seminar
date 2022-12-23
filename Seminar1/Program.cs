@@ -40,7 +40,7 @@ else
    Console.Write(N1);
 */
 // напишите программу которая на вход принимает три числа и выдаёт максимальное из этих чисел
-Console.Write("Input a frist :");
+/*Console.Write("Input a frist :");
 int N1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Input a sekond :");
 int N2 = Convert.ToInt32(Console.ReadLine());
@@ -52,6 +52,21 @@ if (N1>N4) N4=N1;
 if (N2>N4) N4=N2;
 if (N3>N4) N4=N3;
 Console.Write (N4);
+*/
+// 3 задача напишите программу которая на вход принимает число и выдаёт является ли число чётным , делится ли оно без остатка
+/*
+Console.Write("Input a Nr :");
+int N1 = Convert.ToInt32(Console.ReadLine());
+if  (N1%2==0)
+   Console.Write("Yes");
+else
+   Console.Write("Nou");
+*/
+// 4 задача напиши программу которая на вход принимает число N , а на выходе показывает все числа от одного до N
+
+
+
+
     
 
 
