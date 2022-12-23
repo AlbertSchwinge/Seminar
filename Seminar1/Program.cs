@@ -63,6 +63,16 @@ else
    Console.Write("Nou");
 */
 // 4 задача напиши программу которая на вход принимает число N , а на выходе показывает все числа от одного до N
+/*
+Console.Write("input a N :");
+int N =Convert.ToInt32(Console.ReadLine());
+int carent = 1;
+while (carent<=N)
+{
+    Console.Write(carent + " " );
+    carent = carent + 1 ; } ;
+ /*
+
 
 
 
