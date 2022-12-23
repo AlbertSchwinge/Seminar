@@ -28,14 +28,17 @@ while (carent <= numer )
 */
 // Домашнее задание семинар 1 
 // задача первая , напишите программу которая принимает два числа и на выходе выдаёт какое больше а какое меньше
+
 Console.Write("input a first :") ;
 int N1 = Convert.ToInt32(Console.ReadLine()) ;
 Console.Write("input a sekond :") ;
 int N2 = Convert.ToInt32(Console.ReadLine()) ;
 if (N1<N2)
-   Console.Write((N1)+"<"+(N2));
+   Console.Write(N2);
 else
-   Console.Write((N1)+">"+(N2));
-   
+   Console.Write(N1);
+
+
+
 
 
