@@ -29,6 +29,7 @@ while (carent <= numer )
 // Домашнее задание семинар 1 
 // задача первая , напишите программу которая принимает два числа и на выходе выдаёт какое больше а какое меньше
 
+/*
 Console.Write("input a first :") ;
 int N1 = Convert.ToInt32(Console.ReadLine()) ;
 Console.Write("input a sekond :") ;
@@ -37,6 +38,23 @@ if (N1<N2)
    Console.Write(N2);
 else
    Console.Write(N1);
+*/
+// напишите программу которая на вход принимает три числа и выдаёт максимальное из этих чисел
+Console.Write("Input a frist :");
+int N1 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Input a sekond :");
+int N2 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Input a Therd :");
+int N3 = Convert.ToInt32(Console.ReadLine());
+
+int N4 = N1 ;
+if (N1>N4) N4=N1;
+if (N2>N4) N4=N2;
+if (N3>N4) N4=N3;
+Console.Write (N4);
+    
+
+
 
 
 
